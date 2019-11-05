@@ -23,15 +23,24 @@ The aim of the Jupyter Notebook is to provide an explaination of the numpy.rando
 
 Background and Overivew of NumPy
 Section 1: Introduction and Explaination of the numpy.random package
+
 Section 2: Explaination of the 'Smple Random Data'and "Permutation" functions
+
 Section 3: Explaination of 5 'Distributions'functions
+
                               Binomial 
+                              
                               Chi square
-                              Exponention
+                              
+                              Exponential
+                              
                               Uniform
+                              
                               Wald
+                              
 Section 4: Explaination of the use of seeds in generating pseudorandom numbers
-Reference
+
+References
 
 
 
