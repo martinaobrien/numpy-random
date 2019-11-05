@@ -21,7 +21,8 @@ To begin using Jupyter, a new file can be opened from the web page.
 
 The aim of the Jupyter Notebook is to provide an explaination of the numpy.random package with is part of the NumPy programme package. The Notebook contains: 
 
-Background and Overivew of NumPy
+Background and Overivew of NumPy Package
+
 Section 1: Introduction and Explaination of the numpy.random package
 
 Section 2: Explaination of the 'Smple Random Data'and "Permutation" functions
