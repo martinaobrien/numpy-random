@@ -51,5 +51,13 @@ pandas - Installed from: https://anaconda.org/anaconda/pandas
 matplotlib - Installed from: https://anaconda.org/conda-forge/matplotlib
 
 
-
 seaborn - Installed from: https://anaconda.org/anaconda/seaborn
+Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.
+
+
+Images in the Jupyter Notebook are brought in through a URL. The reason for this was to make sure that if any of the folders were left this project would be still readable.
+
+
+Also note that the images are being brought in from my img folder in GitHub.
+Table of Content 
+
