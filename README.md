@@ -1,6 +1,7 @@
 # Introduction to the numpy-random package
 An exploration of the numpy.random package as part of course requirements Programming for Data Analytics for GMIT Higher Diploma in Data Analysis 2019 - 2020.
 
+
 # Prerequisites for the Project
 
 Using the Jupyter Notebook package, the numpy-random package and its uses are documented with examples of the functions given. To utilise this repository, the following packages are required. These packages may already be available to the user if Anaconda is the default package in which Python was downloaded. 
@@ -15,7 +16,11 @@ Jupyter is a Python package. Unlike many Python packages, Jupyter is installed o
 How it works: 
 Once called, the Jupyter Notebook will open a tab on the machine's internet browser. This enables you to access the Jupyter package. If the new tab does not appear, copy the url given on the command line and paste that in the address bar of the internet browser. It is important to note that whatever folder Jupyter is opened in. 
 
-To begin using Jupyter, a new file can be opened from the web page. 
+To begin using Jupyter, a new file can be opened from the web page. There are two main modes in the Jupyter Notebook: edit and command. These enable you to input and run code to generate outputs. 
+
+Jupyter notebook operates in a sequential mode meaning that the notebook remembers the sequence in which commands were run. This is important when the notebook is run as the notebook will not bring in any commands that have not yet been ran as part of the sequence. To clear the hisotrical input sequence in the notebook, users should ensure that the notebook is saved by the Save and Checkpoint function. Once saved, the user can us the "Restart and Clear Output" function within the Widget tab to clear all computations. This is allow the notebook to run for the beginning through to the end. 
+
+
 
 
 # Overview of the Jupyter Notebook.
@@ -24,11 +29,11 @@ The aim of the Jupyter Notebook is to provide an explaination of the numpy.rando
 
 Background and Overivew of NumPy Package
 
-Section 1: Introduction and Explaination of the numpy.random package
+- Section 1: Introduction and Explaination of the numpy.random package
 
-Section 2: Explaination of the 'Smple Random Data'and "Permutation" functions
+- Section 2: Explaination of the 'Smple Random Data'and "Permutation" functions
 
-Section 3: Explaination of 5 'Distributions'functions
+- Section 3: Explaination of 5 'Distributions'functions
 
                               Binomial 
                                                        
@@ -41,11 +46,15 @@ Section 3: Explaination of 5 'Distributions'functions
                               Uniform
                               
                                                            
-Section 4: Explaination of the use of seeds in generating pseudorandom numbers
+- Section 4: Explaination of the use of seeds in generating pseudorandom numbers
 
 
 
-References
+Built with:
+
+This notebook was built with the following packages: 
+
+numpy - Installed from - https://anaconda.org/anaconda/numpy
 
 matplotlib - Installed from: https://anaconda.org/conda-forge/matplotlib
 
