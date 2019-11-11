@@ -2,6 +2,7 @@
 An exploration of the numpy.random package as part of course requirements Programming for Data Analytics for GMIT Higher Diploma in Data Analysis 2019 - 2020.
 
 # Prerequisites for the Project
+
 Using the Jupyter Notebook package, the numpy-random package and its uses are documented with examples of the functions given. To utilise this repository, the following packages are required. These packages may already be available to the user if Anaconda is the default package in which Python was downloaded. 
 
 numpy - Installed from: https://anaconda.org/anaconda/numpy
@@ -30,28 +31,26 @@ Section 2: Explaination of the 'Smple Random Data'and "Permutation" functions
 Section 3: Explaination of 5 'Distributions'functions
 
                               Binomial 
-                              
-                              Chi square
-                              
+                                                       
                               Exponential
                               
+                              Normal
+                              
+                              Poisson
+                                                           
                               Uniform
                               
-                              Wald
-                              
+                                                           
 Section 4: Explaination of the use of seeds in generating pseudorandom numbers
+
+
 
 References
 
-
-
-
-pandas - Installed from: https://anaconda.org/anaconda/pandas
-
 matplotlib - Installed from: https://anaconda.org/conda-forge/matplotlib
 
-
 seaborn - Installed from: https://anaconda.org/anaconda/seaborn
+
 Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.
 
 
@@ -59,5 +58,5 @@ Images in the Jupyter Notebook are brought in through a URL. The reason for this
 
 
 Also note that the images are being brought in from my img folder in GitHub.
-Table of Content 
+
 
