@@ -1,71 +1,74 @@
 # Introduction to the numpy-random package
 An exploration of the numpy.random package as part of course requirements Programming for Data Analytics for GMIT Higher Diploma in Data Analysis 2019 - 2020.
 
+### Background to the Project: 
 
-# Prerequisites for the Project
+This repository is submitted as part of the requirements for the Programming for Data Analytics module with GMIT’s Higher Diploma for Data Analytics. The repository provides an overview and explaination of the numpy.random package and its importance within data analytics.
 
-Using the Jupyter Notebook package, the numpy-random package and its uses are documented with examples of the functions given. To utilise this repository, the following packages are required. These packages may already be available to the user if Anaconda is the default package in which Python was downloaded. 
+The assignment requirements are as follows:
 
-numpy - Installed from: https://anaconda.org/anaconda/numpy
+“Create a Jupyter notebook explaining the use of the package, including detailed explanations of at least five of the distributions provided for in the package.
 
-jupyter - Installed from: https://anaconda.org/anaconda/jupyter 
+There are four distinct tasks to be carried out in your Jupyter notebook.
 
-Running Jupyter: 
+1. Explain the overall purpose of the package.
+
+2. Explain the use of the “Simple random data” and “Permutations” functions.
+
+3. Explain the use and purpose of at least five “Distributions” functions.
+
+4. Explain the use of seeds in generating pseudorandom numbers
+
+### Prerequisites for the Projects: 
+
+To compile the notebook the following packages were installed on my computer:
+
+•	The full Anaconda package from: https://www.anaconda.com 
+
+The following packages are used in this repository, all of which can be found in the Anaconda package:
+
+•	Jupyter notebook - Installed from: https://anaconda.org/anaconda/jupyter 
+
+•	numpy package - Installed from: https://anaconda.org/anaconda/numpy
+
+•	seaborn - Installed from: https://anaconda.org/anaconda/seaborn
+
+Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.
+
+•	matplotlib package
+
+
+
+### Running Jupyter: 
+
 Jupyter is a Python package. Unlike many Python packages, Jupyter is installed on your computer in a way that does not require your machine to import it from Python. Jupyter can be imported but typicaaly Jupyter is run from the machine's command line.
 
-How it works: 
+#### How it works: 
+
 Once called, the Jupyter Notebook will open a tab on the machine's internet browser. This enables you to access the Jupyter package. If the new tab does not appear, copy the url given on the command line and paste that in the address bar of the internet browser. It is important to note that whatever folder Jupyter is opened in. 
 
 To begin using Jupyter, a new file can be opened from the web page. There are two main modes in the Jupyter Notebook: edit and command. These enable you to input and run code to generate outputs. 
 
+Jupyter contains an inbuilt text editor which allows you to document the notebook effectively. This includes using different fonts and text size, hyperlinks and inputting tables among others.
+
 Jupyter notebook operates in a sequential mode meaning that the notebook remembers the sequence in which commands were run. This is important when the notebook is run as the notebook will not bring in any commands that have not yet been ran as part of the sequence. To clear the hisotrical input sequence in the notebook, users should ensure that the notebook is saved by the Save and Checkpoint function. Once saved, the user can us the "Restart and Clear Output" function within the Widget tab to clear all computations. This is allow the notebook to run for the beginning through to the end. 
-
-
-
-
-# Overview of the Jupyter Notebook.
-
-The aim of the Jupyter Notebook is to provide an explaination of the numpy.random package with is part of the NumPy programme package. The Notebook contains: 
-
-Background and Overivew of NumPy Package
-
-- Section 1: Introduction and Explaination of the numpy.random package
-
-- Section 2: Explaination of the 'Smple Random Data'and "Permutation" functions
-
-- Section 3: Explaination of 5 'Distributions'functions
-
-                              Binomial 
-                                                       
-                              Exponential
-                              
-                              Normal
-                              
-                              Poisson
-                                                           
-                              Uniform
-                              
-                                                           
-- Section 4: Explaination of the use of seeds in generating pseudorandom numbers
-
-
-
-Built with:
-
-This notebook was built with the following packages: 
-
-numpy - Installed from - https://anaconda.org/anaconda/numpy
-
-matplotlib - Installed from: https://anaconda.org/conda-forge/matplotlib
-
-seaborn - Installed from: https://anaconda.org/anaconda/seaborn
-
-Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.
-
 
 Images in the Jupyter Notebook are brought in through a URL. The reason for this was to make sure that if any of the folders were left this project would be still readable.
 
 
 Also note that the images are being brought in from my img folder in GitHub.
 
+#### How to use:
+
+The notebook will be displayed automatically if the requisites named above are installed. A caveat the for Jupyter Notebook is it won’t display automatically in some instances. To override this and render the notebook use the following link and past the url into the following website: https://nbviewer.jupyter.org/
+
+#### References:
+
+A full list of references is contained within the Jupyter Notebook.
+
+#### License: 
+
+The repository is for use within the GNU General Public License 3.0. 
+
+To find more on the license: https://www.gnu.org/licenses/gpl-3.0.en.html
 
