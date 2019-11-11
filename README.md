@@ -35,6 +35,8 @@ The following packages are used in this repository, all of which can be found in
 
 Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.
 
+•	scipy - Installed from: https://anaconda.org/anaconda/scipy
+
 •	matplotlib package - - Installed from: https://anaconda.org/anaconda/matplotlib
 
 
