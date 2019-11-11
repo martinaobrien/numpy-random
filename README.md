@@ -35,7 +35,7 @@ The following packages are used in this repository, all of which can be found in
 
 Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.
 
-•	matplotlib package
+•	matplotlib package - - Installed from: https://anaconda.org/anaconda/matplotlib
 
 
 
@@ -49,15 +49,27 @@ Once called, the Jupyter Notebook will open a tab on the machine's internet brow
 
 To begin using Jupyter, a new file can be opened from the web page. There are two main modes in the Jupyter Notebook: edit and command. These enable you to input and run code to generate outputs. 
 
+Jupyter notebook operates in a sequential mode meaning that the notebook remembers the sequence in which commands were run. This is important when the notebook is run as the notebook will not bring in any commands that have not yet been ran as part of the sequence. To clear the hisotrical input sequence in the notebook, users should ensure that the notebook is saved by the Save and Checkpoint function. Once saved, the user can us the "Restart and Clear Output" function within the Widget tab to clear all computations. This is allow the notebook to run for the beginning through to the end.
+
 Jupyter contains an inbuilt text editor which allows you to document the notebook effectively. This includes using different fonts and text size, hyperlinks and inputting tables among others.
 
-Jupyter notebook operates in a sequential mode meaning that the notebook remembers the sequence in which commands were run. This is important when the notebook is run as the notebook will not bring in any commands that have not yet been ran as part of the sequence. To clear the hisotrical input sequence in the notebook, users should ensure that the notebook is saved by the Save and Checkpoint function. Once saved, the user can us the "Restart and Clear Output" function within the Widget tab to clear all computations. This is allow the notebook to run for the beginning through to the end. 
+##### Importing Images in Jupyter
 
-Images in the Jupyter Notebook are brought in through a URL. The reason for this was to make sure that if any of the folders were left this project would be still readable.
+Images in the Jupyter Notebook are brought in through a URL. The images are stored in my GitHub in the img folder. The reason for this was to make sure that if any of the folders were left this project would be still readable.
+The 2 images are:
+-	GMIT Logo: (https://raw.githubusercontent.com/martinaobrien/numpy-random/master/img/gmit_logo.jpg)
+-	Header: (https://raw.githubusercontent.com/martinaobrien/numpy-random/master/img/Header%20Image.png)
 
+##### Inserting Internal Hyperlinks
 
-Also note that the images are being brought in from my img folder in GitHub.
+I have also made my numpy-random.ipynb table of content clickable by adding hyperlinks. 
+This was achieved by adding a little bit of HTML <a> tags in my markdown.
+•	Inside my table of content I put the [section name here] and add (#TagNameHere)
+•	At my Section Heading I used <a id='TagNameHere'></a>
+I hope by doing this it will make it easier and nicer to read.
+https://sebastianraschka.com/Articles/2014_ipython_internal_links.html  
 
+ 
 #### How to use:
 
 The notebook will be displayed automatically if the requisites named above are installed. A caveat the for Jupyter Notebook is it won’t display automatically in some instances. To override this and render the notebook use the following link and past the url into the following website: https://nbviewer.jupyter.org/
